@@ -6,14 +6,19 @@
          url('leaguespartan-bold.woff') format('woff'),
          url('leaguespartan-bold.ttf') format('truetype'),
          url('leaguespartan-bold.svg#league_spartanbold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-
+    	font-weight: bold;
+   	font-style: normal;
+	.text-mobile {
+   	font-size: 16px;
+	}
 }
 
 /* width */
 ::-webkit-scrollbar {
     width: 20px;
+.text-mobile {
+    font-size: 16px;
+	}
   }
   
   /* Track */
@@ -35,6 +40,9 @@
   
 html, body {
     cursor: url("cursor.png"), default;
+	.text-mobile {
+    font-size: 16px;
+}
     /* just change the cursor.ico path to your location */
   }
 
@@ -43,6 +51,9 @@ html, body {
     position: relative;
     text-align: center;
     color: white;
+	.text-mobile {
+    font-size: 16px;
+}
   }
 
   /* Centered text */
@@ -56,12 +67,18 @@ html, body {
     text-shadow: 2px 2px 5px gray;
     font-weight: 4px;
     transform: translate(-50%, -50%);
+	.text-mobile {
+    font-size: 16px;
+}
   }
 
   iframe {
       max-width: 250px;
       max-height: 260px;
       box-shadow: 3px 3px 5px rgb(0, 255, 234);
+	.text-mobile {
+    font-size: 16px;
+}
 
   }
 
@@ -70,7 +87,9 @@ body {
  background-repeat: no-repeat;
  background-size: 2150px;
  background-color: rgb(36, 164, 121);
-
+.text-mobile {
+    font-size: 16px;
+}
 }
 .nav {
 justify-content: center;
@@ -86,14 +105,22 @@ box-shadow: 3px 3px 5px rgb(82, 1, 51);
 text-shadow: 2px 2px 5px gray;
 max-width: 500px;
 border-radius: 25px;
+.text-mobile {
+    font-size: 16px;
+}
 }
 
 .extramain {
     text-align: center;
     justify-content: relative center;
+	.text-mobile {
+    font-size: 16px;
+}
 }
 main {
-
+.text-mobile {
+    font-size: 16px;
+}
 }
 
 img {
@@ -114,6 +141,9 @@ footer {
         font-size: 11px;
         text-shadow: 2px 2px 5px gray;
         font-family: Arial;
+	    .text-mobile {
+    font-size: 16px;
+}
     }
 }
 
@@ -121,6 +151,7 @@ footer {
 @media only screen and (max-width: 1024px) {
 	body { margin: 0;
 	      padding: 0;
+		max-width: 1024px;
 		  background-image: none; }
 	#wrapper { width: auto; 
 			   min-width: 0;
@@ -136,31 +167,96 @@ footer {
 		  margin-left: 0; 
 		  font-size: 90%; }
 	footer { margin: 0; }
-
+.text-mobile {
+    font-size: 16px;
+}
 }
 p {
     font-size: 16px;
     font-weight: 2px;
     font-family: Arial, Helvetica, sans-serif;
+	.text-mobile {
+    font-size: 16px;
+}
 }
 @media only all and (max-width: 768px) {
+	body {
+		max-width: 768px;
+		.text-mobile {
+    font-size: 16px;
+}
+	}
 	h1 { height: 100%;
 		font-size: 1.5em;
-		padding-left: 0.3em; }
+		padding-left: 150px; 
+	.text-mobile {
+    font-size: 16px;
+}
+}
 	nav { padding: 0;
+		.text-mobile {
+    font-size: 16px;
+}
 
 	nav a { display: block; 
 		   padding: 0.2em;
 		   font-size: 1.1em;
-		   border-bottom: 1px solid #330000; }
+		   border-bottom: 1px solid #330000; 
+		.text-mobile {
+    font-size: 16px;
+}
+		}
 	nav ul { padding: 0;
-	       margin: 0; }
+	       margin: 0; 
+		.text-mobile {
+    font-size: 16px;
+}}
 	nav li { display: block; 
           margin: 0;
           padding: 0; 
           text-decoration-color: blueviolet;
           text-shadow: 2px 2px 5px gray;
-        }
-	main { padding: 0.1em 0.6em 0.1em 0.4em }
+		.text-mobile {
+    font-size: 16px;
+	}	
+     }
+	main { padding: 0.1em 0.6em 0.1em 0.4em
+		.text-mobile {
+    font-size: 16px;
+	}
+}
 
 }
+/* code that is here, until the first @media block, will apply to any screen size */
+  width: 800px;
+.text-mobile {
+    font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+    width: 120px;
+.text-mobile {
+    font-size: 16px;
+}	
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+    width: 320px;
+}
+@media screen and (min-width: 481px) {
+  /* comes into effect for screens larger than or equal to 481 pixels */
+    width: 480px;
+	.text-mobile {
+    font-size: 16px;
+	}
+}
+@media (min-width: 640px)
+.sm\:pb-4 {
+    padding-bottom: 1rem;
+	.text-mobile {
+    font-size: 16px;
+}
+}
+
