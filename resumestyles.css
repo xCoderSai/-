@@ -130,7 +130,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 	body { margin: 0;
 	      padding: 0;
 		  background-image: none; }
@@ -155,7 +155,7 @@ p {
     font-weight: 2px;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media only all and (max-width: 768px) {
+@media all and (max-width: 768px) {
 	h1 { height: 100%;
 		font-size: 1.5em;
 		padding-left: 0.3em; }
@@ -176,3 +176,12 @@ p {
 	main { padding: 0.1em 0.6em 0.1em 0.4em }
 
 }
+	
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@-ms-viewport {
+  width: device-width ;
+}
+
