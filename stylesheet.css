@@ -140,7 +140,8 @@ p {
   .centered {width: 25%;}
   .extramain {width: 33.33%;}
   iframe {width: 41.66%;}
-  body, nav {width: 50%;}
+  body {width: 50%;}
+  nav {width: 100%}
   img {width: 58.33%;}
   h1 {width: 66.66%;}
   h2 {width: 75%;}
@@ -156,7 +157,8 @@ p {
   .centered {width: 25%;}
   .extramain {width: 33.33%;}
   iframe {width: 41.66%;}
-  body, nav {width: 50%;}
+  body{width: 35%;}
+  nav {width: 100%}
   img {width: 58.33%;}
   h1 {width: 66.66%;}
   h2 {width: 75%;}
@@ -170,7 +172,8 @@ p {
   .centered {width: 25%;}
   .extramain {width: 33.33%;}
   iframe {width: 41.66%;}
-  body, nav {width: 50%;}
+  body {width: 50%;}
+  nav {width: 100%}
   img {width: 58.33%;}
   h1 {width: 66.66%;}
   h2 {width: 75%;}
@@ -183,7 +186,8 @@ p {
   .container {max-width: 85%;}
   .centered {max-width: 100%;}
   iframe {max-width: 41.66%;}
-  body, nav {max-width: 85%;}
+  body {max-width: 85%;}
+  nav {width: 100%}
   img {max-width: 85%;}
   h1 {width: 91%;}
   h2 {width: 91%;}
@@ -197,7 +201,8 @@ p {
   .container {max-width: 85%;}
   .centered {max-width: 85%;}
   iframe {width: 100;}
-  body, nav {width: 90%;}
+  body {width: 90%;}
+  nav {width: 100%}
   img {max-width: 85;}
   h1 {width: 85%;}
   h2 {width: 85%;}
@@ -210,7 +215,8 @@ p {
   .container {max-width: 100%;}
   .centered {max-width: 100%;}
   iframe {max-width: 80%;}
-  body, nav {max-width: 50%;}
+  body {max-width: 50%;}
+  nav {width: 100%}
   img {max-width: 100%;}
   h1 {max-width: 95&=%;}
   h2 {max-width: 95%;}
