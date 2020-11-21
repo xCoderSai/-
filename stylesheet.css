@@ -161,7 +161,7 @@ p {
   h1 {width: 66.66%;}
   h2 {width: 75%;}
   p {width: 83.33%;}
-  nav {width: 75%;)
+  nav {width: 100%;)
 }
 @media only screen and (min-width: 481px) {
   /* For iPad (2): */
@@ -175,48 +175,47 @@ p {
   h1 {width: 66.66%;}
   h2 {width: 75%;}
   p {width: 83.33%;}
-  nav {width: 75%;)
+  nav {width: 100%;)
 }
 @media only screen and (min-width: 640px) {
   /* For desktop: */
   html, body {width: 8.33%;}
-  .container {width: 16.66%;}
-  .centered {width: 25%;}
-  .extramain {width: 33.33%;}
+  .container {width: 85%;}
+  .centered {width: 100%;}
+
   iframe {width: 41.66%;}
-  body, nav {width: 50%;}
-  img {width: 58.33%;}
-  h1 {width: 66.66%;}
-  h2 {width: 75%;}
-  p {width: 83.33%;}
-  nav {width: 75%;)
+  body, nav {width: 85%;}
+  img {width: 85%;}
+  h1 {width: 91%;}
+  h2 {width: 91%;}
+  p {width: 91%;}
+  nav {width: 100%;)
 }
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   html, body {width: 8.33%;}
-  .container {width: 16.66%;}
-  .centered {width: 25%;}
-  .extramain {width: 33.33%;}
-  iframe {width: 41.66%;}
-  body, nav {width: 50%;}
-  img {width: 58.33%;}
-  h1 {width: 66.66%;}
-  h2 {width: 75%;}
-  p {width: 83.33%;}
-  nav {width: 75%;)
+  .container {width: 85%;}
+  .centered {width: 85%;}
+
+  iframe {width: 100;}
+  body, nav {width: 90%;}
+  img {width: 75;}
+  h1 {width: 85%;}
+  h2 {width: 85%;}
+  p {width: 91%;}
+  nav {width: 100%;)
 }
 @media only screen and (min-width: 1024px) {
   /* For desktop: */
   html, body {width: 8.33%;}
-  .container {width: 16.66%;}
-  .centered {width: 25%;}
-  .extramain {width: 33.33%;}
-  iframe {width: 41.66%;}
+  .container {width: 100%;}
+  .centered {width: 100%;}
+  iframe {width: 80%;}
   body, nav {width: 50%;}
-  img {width: 58.33%;}
-  h1 {width: 66.66%;}
-  h2 {width: 75%;}
-  p {width: 83.33%;}
-  nav {width: 75%;)
+  img {width: 100%;}
+  h1 {width: 95&=%;}
+  h2 {width: 95%;}
+  p {width: 100%;}
+  nav {width: 100%;)
 }
