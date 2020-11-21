@@ -56,9 +56,9 @@ html, body {
     text-shadow: 2px 2px 5px gray;
     font-weight: 4px;
     transform: translate(-50%, -50%);
-    white-space: nowrap;
+    position: static;
     overflow: hidden;
-    text-overflow: ellipsis;	
+
   }
 
   iframe {
