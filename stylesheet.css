@@ -72,6 +72,9 @@ body {
  background-repeat: no-repeat;
  background-size: 2150px;
  background-color: rgb(36, 164, 121);
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;	
 }
 .nav {
 justify-content: center;
