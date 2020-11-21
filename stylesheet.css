@@ -202,7 +202,7 @@ p {
   .centered {max-width: 85%;}
   iframe {width: 100;}
   body {width: 90%;}
-  nav {width: 100%}
+  nav {width: 85%}
   img {max-width: 85;}
   h1 {width: 85%;}
   h2 {width: 85%;}
@@ -215,8 +215,8 @@ p {
   .container {max-width: 100%;}
   .centered {max-width: 100%;}
   iframe {max-width: 80%;}
-  body {max-width: 50%;}
-  nav {width: 100%}
+  body {max-width: 100%;}
+  nav {width: 85%}
   img {max-width: 100%;}
   h1 {max-width: 95&=%;}
   h2 {max-width: 95%;}
